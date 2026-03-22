@@ -89,12 +89,11 @@ const Footer = () => {
             <div className="footer-links">
               <h4>Quick Links</h4>
               <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#categories">Packages</a></li>
-                <li><a href="#gallery">Portfolio</a></li>
-                <li><a href="#why-us">About Us</a></li>
-                <li><a href="#reviews">Testimonials</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/categories">Packages</a></li>
+                <li><a href="/gallery">Portfolio</a></li>
+                <li><a href="/why-us">About Us</a></li>
+                <li><a href="/reviews">Testimonials</a></li>
               </ul>
             </div>
           </Col>
@@ -104,12 +103,12 @@ const Footer = () => {
             <div className="footer-links">
               <h4>Our Services</h4>
               <ul>
-                <li><a href="#">Wedding Photography</a></li>
-                <li><a href="#">Engagement Shoots</a></li>
-                <li><a href="#">Pre-Wedding Sessions</a></li>
-                <li><a href="#">Wedding Videography</a></li>
-                <li><a href="#">Photo Albums</a></li>
-                <li><a href="#">Destination Weddings</a></li>
+                <li><a href="/categories">Wedding Photography</a></li>
+                <li><a href="/categories">Engagement Shoots</a></li>
+                <li><a href="/categories">Pre-Wedding Sessions</a></li>
+                <li><a href="/categories">Wedding Videography</a></li>
+                <li><a href="/categories">Photo Albums</a></li>
+                <li><a href="/categories">Destination Weddings</a></li>
               </ul>
             </div>
           </Col>
@@ -149,44 +148,6 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
-
-        {/* Awards & Recognition */}
-        <div className="awards-section">
-          <Row className="justify-content-center">
-            <Col lg={10}>
-              <div className="awards-wrapper">
-                <div className="award-item">
-                  <span className="award-icon">🏆</span>
-                  <div>
-                    <h6>Best Wedding Photographer 2023</h6>
-                    <p>Wedding Awards International</p>
-                  </div>
-                </div>
-                <div className="award-item">
-                  <span className="award-icon">⭐</span>
-                  <div>
-                    <h6>5-Star Rating</h6>
-                    <p>500+ Happy Couples</p>
-                  </div>
-                </div>
-                <div className="award-item">
-                  <span className="award-icon">📷</span>
-                  <div>
-                    <h6>Featured in Vogue</h6>
-                    <p>Top Wedding Photographers</p>
-                  </div>
-                </div>
-                <div className="award-item">
-                  <span className="award-icon">💎</span>
-                  <div>
-                    <h6>Luxury Wedding Award</h6>
-                    <p>Excellence in Photography</p>
-                  </div>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </div>
 
         {/* Copyright & Legal */}
         <div className="footer-bottom">
